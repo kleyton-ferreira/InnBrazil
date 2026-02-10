@@ -127,6 +127,12 @@ html {
   opacity: 1;
 }
 
+#count {
+  color: var(--primary-white);
+  font-weight: 900;
+  font-size: 20px;
+}
+
 /*   ======================== BASE ========================  */
 
 * {

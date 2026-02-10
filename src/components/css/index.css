@@ -184,11 +184,6 @@
   letter-spacing: 1px;
 }
 
-.banner-description-content {
-  width: 100%;
-  display: inline-block;
-}
-
 .banner-description-content h2 {
   font-size: 70px;
   line-height: 60px;
@@ -205,9 +200,9 @@
 }
 
 .banner-description-content p {
+  font-size: 20px;
   text-align: center;
   color: var(--primary-white);
-  font-size: 20px;
 }
 
 .banner-description-content p span {
@@ -255,13 +250,13 @@
   padding: 12px 42px;
   font-weight: 600;
   color: var(--primary-white);
-  transition: all 0.3s ease;
   cursor: pointer;
   transition: all 0.4s ease;
-  &:hover {
-    background: var(--primary-white);
-    color: var(--primary-pink);
-  }
+}
+
+.banner-secondary-button button:hover {
+  background: var(--primary-white);
+  color: var(--primary-pink);
 }
 
 .banner :is(.banner-secondary-button, .banner-description-content) {

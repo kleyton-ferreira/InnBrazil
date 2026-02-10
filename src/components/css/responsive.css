@@ -67,8 +67,6 @@
   }
 
   .banner-description-content {
-    width: 160%;
-    display: inline-block;
     padding-top: 106px;
   }
 
@@ -99,6 +97,11 @@
     font-size: 15px;
     margin: 110px auto;
     padding: 10px 40px;
+  }
+
+  /* MAIN - POINTS ( ! ) */
+  .points {
+    margin-top: 326px;
   }
 }
 

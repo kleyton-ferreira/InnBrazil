@@ -59,6 +59,7 @@
   align-items: center;
   justify-content: center;
   transition: all 0.6s ease;
+  margin-bottom: 2px;
 }
 
 .title p:hover {
@@ -77,8 +78,8 @@
 }
 
 .header-button button {
-  font-size: 16px;
   position: relative;
+  font-size: 16px;
   cursor: pointer;
   background: var(--primary-white);
   border: none;

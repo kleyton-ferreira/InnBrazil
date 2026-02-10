@@ -1,6 +1,44 @@
 /* =========================== RESPONSIVE - MOBILE (VERTICAL) */
 
 @media screen and (max-width: 480px) {
+  .header-content-top {
+    position: relative;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header-logo {
+    align-self: self-start;
+  }
+
+  .header-top-text {
+    left: 0px;
+  }
+
+  .header-top-hours {
+    flex: 0px;
+  }
+
+  .title p {
+    font-size: 24px;
+
+    width: 40px;
+    height: 40px;
+  }
+
+  #theme-switch {
+    position: absolute;
+    top: 10px;
+    right: 0;
+  }
+
+  .header-button {
+    margin-bottom: 32px;
+  }
+
+  .header-button button {
+    top: 10px;
+  }
 }
 
 /* =========================== RESPONSIVE - MOBILE (HORIZONTAL) */

@@ -1,0 +1,57 @@
+.slide-carousel .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 8px;
+    height: 8px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    background: #e53d3d;
+    border: 1px solid #e53d3d;
+}
+
+.actors .actors_container .carousel_three .slick-dots li button {
+    transform: translate(-20px, 186px);
+    background: var(--title-card);
+}
+
+.actors .actors_container .carousel_three .slick-dots li.slick-active button {
+    background: var(--background_color);
+}
+
+.slick-dots li button:hover {
+    /* background: white; */
+}
+
+.slide-carousel .slick-dotted.slick-slider {
+    margin-bottom: 30px;
+}
+
+.slide-carousel .slick-dots {
+    position: absolute;
+    right: 0px;
+    bottom: -80px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.slide-carousel .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slide-carousel .slick-dots li:nth-child(4) {
+    display: none;
+}

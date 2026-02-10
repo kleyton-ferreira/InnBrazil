@@ -1,0 +1,27 @@
+{
+  "name": "innbrazil",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kleyton-ferreira/Inn-Brazil.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kleyton-ferreira/Inn-Brazil/issues"
+  },
+  "homepage": "https://github.com/kleyton-ferreira/Inn-Brazil#readme",
+  "description": "",
+  "devDependencies": {
+    "git-commit-msg-linter": "^5.0.8",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
+    "prettier": "^3.8.1"
+  }
+}

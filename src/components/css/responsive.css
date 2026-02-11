@@ -275,6 +275,21 @@
 /* =========================== RESPONSIVE - MOBILE (HORIZONTAL) */
 
 @media screen and (orientation: landscape) and (max-width: 1024px) {
+  .banner {
+    width: 200%;
+  }
+
+  .points {
+    width: 200%;
+  }
+
+  .cards {
+    width: 200%;
+  }
+
+  .plans {
+    width: 200%;
+  }
 }
 
 /* =========================== RESPONSIVE - TABLET */

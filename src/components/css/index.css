@@ -269,7 +269,6 @@
 /* MAIN - POINTS ( ! ) */
 .points {
   margin-top: 126px;
-  height: 80px;
 }
 
 .points-content {
@@ -306,4 +305,55 @@
 .points-content p:hover i {
   transform: scale(1.2);
   background-color: var(--primary-pink);
+}
+
+/* MAIN - CARDS ( ! ) */
+.cards {
+  width: 100%;
+  margin: auto;
+  margin-top: 76px;
+}
+
+.cards-container {
+  display: flex;
+  gap: 20px;
+}
+
+.cards-info {
+  width: 800px;
+  background: var(--primary-pink);
+  border-radius: 30px;
+  text-align: center;
+  padding: 20px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.cards-info:hover {
+  background: var(--primary-gray);
+}
+
+.cards-info :is(i, h2, p) {
+  color: var(--primary-white);
+  transition: all 0.5s ease;
+}
+
+.cards-info .icon i {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.cards-info .cards-description {
+  width: 534px;
+  margin: auto;
+}
+
+.cards-info .cards-description h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.cards-info .cards-description p {
+  font-size: 20px;
 }

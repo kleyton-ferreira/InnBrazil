@@ -68,6 +68,18 @@ html {
   background: var(--darkmode-dark);
 }
 
+.darkmode :is(.plans-title h2, .plans-text p) {
+  color: var(--primary-white);
+}
+
+.darkmode .plans-border {
+  background-color: var(--primary-white);
+}
+
+.darkmode .plans {
+  background: url(none);
+}
+
 /* BUTTON DARKMODE ( EDITION ) */
 
 #theme-switch {

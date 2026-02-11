@@ -357,3 +357,157 @@
 .cards-info .cards-description p {
   font-size: 20px;
 }
+
+/* MAIN - PLANS ( ! ) */
+.plans {
+  width: 100%;
+  height: 1270px;
+  margin: auto;
+  background: url(../assets/imgs/bg.content.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.plans .plans-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 80px;
+}
+
+.plans .plans-content-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.plans-content-info :is(h2, p) {
+  color: var(--primary-gray);
+}
+
+.plans-content-info .plans-title h2 {
+  font-size: 40px;
+}
+
+.plans-content-info :is(span) {
+  display: block;
+  font-weight: inherit;
+}
+
+.plans-content-info .plans-text p {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.plans-content-info .plans-border {
+  position: relative;
+  width: 340px;
+  height: 1px;
+  background-color: var(--primary-gray);
+}
+
+.plans-content-info .plans-border::after {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 70px;
+  height: 3px;
+  background: var(--primary-pink);
+}
+
+.plans-container:hover .plans-content-info .plans-border::after {
+  animation: widthMover 8s ease infinite;
+}
+
+@keyframes widthMover {
+  0% {
+    width: 70px;
+  }
+
+  100% {
+    width: 340px;
+  }
+}
+
+.plans .plans-content-description {
+  width: 720px;
+  background: var(--primary-pink);
+  border-radius: 60px;
+  overflow: hidden;
+  padding: 66px;
+}
+
+.plans-content-description .plans-paragraph p {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--primary-white);
+  margin-bottom: 28px;
+  transition: all 0.8s ease;
+}
+
+.plans-content-description .plans-paragraph p:hover {
+  transform: translateX(3px);
+}
+
+.plans-content-description .plans-paragraph p i {
+  background: transparent;
+  border: 2px solid var(--primary-white);
+  border-radius: 50%;
+  margin-inline: 10px;
+  transition: all 0.8s ease;
+}
+
+.plans-content-description .plans-paragraph p:hover i {
+  background: var(--primary-white);
+  color: var(--primary-pink);
+}
+
+.plans-content-description .plans-button {
+  padding-inline: 56px;
+  display: flex;
+  align-items: center;
+}
+
+.plans-content-description .plans-button a {
+  position: relative;
+  background: var(--primary-white);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.plans-content-description .plans-button:hover a {
+  background: var(--primary-pink-light);
+  color: white;
+}
+
+.plans-content-description .plans-button button {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--primary-pink);
+  background: transparent;
+  border: none;
+  padding: 16px 60px;
+  text-indent: -30px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.plans-content-description .plans-button:hover button {
+  color: var(--primary-white);
+}
+
+.plans-content-description .plans-button i {
+  position: absolute;
+  top: 8px;
+  right: 18px;
+  font-size: 40px;
+  color: var(--primary-pink);
+  transition: all 0.5s ease;
+}
+
+.plans-content-description .plans-button:hover i {
+  color: var(--primary-white);
+}

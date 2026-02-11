@@ -432,11 +432,11 @@
 }
 
 .plans .plans-content-description {
-  width: 720px;
+  width: 62.1%;
   background: var(--primary-pink);
   border-radius: 60px;
   overflow: hidden;
-  padding: 66px;
+  padding: 58px;
 }
 
 .plans-content-description .plans-paragraph p {
@@ -445,6 +445,11 @@
   color: var(--primary-white);
   margin-bottom: 28px;
   transition: all 0.8s ease;
+}
+
+.plans-content-description .plans-paragraph p span {
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .plans-content-description .plans-paragraph p:hover {

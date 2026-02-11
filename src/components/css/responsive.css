@@ -98,6 +98,31 @@
     margin: 88px auto;
     padding: 10px 40px;
   }
+
+  /* MAIN - POINTS ( ! ) */
+  .points {
+    margin-top: 320px;
+  }
+
+  .points-content {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .points-content :is(.points-descritpion, p) {
+    margin-left: 0px;
+    font-size: 18px;
+    /* gap: 5px; */
+  }
+
+  .points-content p i {
+    font-size: 20px;
+    top: 0px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
 }
 
 /* =========================== RESPONSIVE - MOBILE (HORIZONTAL) */

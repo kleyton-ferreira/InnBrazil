@@ -201,6 +201,47 @@
     right: 30px;
     font-size: 30px;
   }
+
+  /*  MAIN - CONFIRMED ( PLANS! )  */
+  .confirmed .confirmed-content-text h2 {
+    font-size: 32px;
+  }
+
+  .confirmed .confirmed-content-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .confirmed .confirmed-description {
+    width: 96%;
+  }
+
+  .confirmed .confirmed-description p {
+    font-size: 18px;
+  }
+
+  .confirmed .comfirmed-img:hover {
+    transform: scale(1.06);
+  }
+
+  .confirmed-cards-container {
+    margin-top: 36px;
+  }
+
+  .confirmed .confirmed-cards-all {
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  .confirmed .comfirmed-img {
+    width: 100%;
+  }
+
+  .confirmed .comfirmed-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 /* =========================== RESPONSIVE - MOBILE (HORIZONTAL) */

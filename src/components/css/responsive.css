@@ -51,19 +51,19 @@
   /* MAIN - BANNER ( ! ) */
   .banner {
     top: 298px;
-    height: 746px;
+    height: 100%;
   }
 
   .banner::before {
     content: '';
-    height: 746px;
+    height: 100%;
   }
 
   .banner-image img {
-    width: 130%;
-    height: 136%;
-    object-fit: cover;
-    translate: 16px 26px;
+    width: 716px;
+    height: 860px;
+    object-fit: contain;
+    translate: 56px;
   }
 
   .banner-description-content {
@@ -95,13 +95,8 @@
 
   .banner-secondary-button button {
     font-size: 15px;
-    margin: 110px auto;
+    margin: 88px auto;
     padding: 10px 40px;
-  }
-
-  /* MAIN - POINTS ( ! ) */
-  .points {
-    margin-top: 326px;
   }
 }
 

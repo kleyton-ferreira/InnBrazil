@@ -167,14 +167,14 @@
 }
 
 .banner-primary-button button {
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--primary-white);
   padding: 12px 42px;
   border: none;
   background: var(--primary-pink);
-  color: var(--primary-white);
   border-radius: 300px;
   margin-bottom: 16px;
-  font-weight: 500;
   transition: all 0.6s ease;
 }
 
@@ -193,7 +193,6 @@
   display: inline-block;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 16px;
 }
 
 .banner-description-content h2 span {
@@ -206,6 +205,7 @@
   font-size: 20px;
   text-align: center;
   color: var(--primary-white);
+  margin-top: 16px;
 }
 
 .banner-description-content p span {
@@ -246,13 +246,12 @@
 
 .banner-secondary-button button {
   font-size: 20px;
-  background: var(--primary-pink);
-  margin: auto;
-  border: none;
-  border-radius: 30px;
-  padding: 12px 42px;
   font-weight: 600;
   color: var(--primary-white);
+  background: var(--primary-pink);
+  border-radius: 30px;
+  border: none;
+  padding: 12px 42px;
   cursor: pointer;
   transition: all 0.4s ease;
 }

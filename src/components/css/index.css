@@ -265,3 +265,48 @@
   position: absolute;
   z-index: 3;
 }
+
+/* MAIN - POINTS ( ! ) */
+.points {
+  margin-top: 126px;
+}
+
+.points-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.points-descritpion {
+  display: flex;
+  column-gap: 20px;
+}
+
+.points-content :is(.points-descritpion, p) {
+  margin-left: 24px;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--primary-pink);
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.points-content p i {
+  position: relative;
+  top: -1px;
+  font-size: 26px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background: var(--primary-pink-light);
+  color: var(--primary-white);
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+.points-content p:hover i {
+  transform: scale(1.2);
+  background-color: var(--primary-pink);
+}

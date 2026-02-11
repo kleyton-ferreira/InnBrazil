@@ -275,11 +275,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.points-descritpion {
-  display: flex;
-  column-gap: 20px;
+  gap: 10px;
 }
 
 .points-content :is(.points-descritpion, p) {

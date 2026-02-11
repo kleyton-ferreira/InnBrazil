@@ -123,6 +123,29 @@
     height: 20px;
     line-height: 20px;
   }
+
+  /* MAIN - CARDS ( ! ) */
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .cards-info {
+    width: 102%;
+  }
+
+  .cards-info .cards-description {
+    width: 96%;
+  }
+
+  .cards-info .cards-description h2 {
+    font-size: 22px;
+  }
+
+  .cards-info .cards-description p {
+    font-size: 16px;
+  }
 }
 
 /* =========================== RESPONSIVE - MOBILE (HORIZONTAL) */

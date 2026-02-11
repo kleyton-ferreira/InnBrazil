@@ -231,6 +231,7 @@
   .confirmed .confirmed-cards-all {
     gap: 30px;
     flex-direction: column;
+    margin-bottom: 22px;
   }
 
   .confirmed .comfirmed-img {
@@ -241,6 +242,33 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  /* CONFIRMED RODAPE */
+  .confirmed .comfirmed-rodape-text {
+    width: 96%;
+  }
+
+  .confirmed .comfirmed-rodape-text p {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .confirmed .comfirmed-rodape-text p strong {
+    font-size: 28px;
+    color: var(--primary-pink);
+  }
+
+  .confirmed .comfirmed-rodape-text p span {
+    display: inline-block;
+  }
+
+  .confirmed .confirmed-button {
+    margin-top: 20px;
+  }
+
+  .confirmed .confirmed-button button {
+    font-size: 16px;
   }
 }
 

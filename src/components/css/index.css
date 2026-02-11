@@ -684,6 +684,7 @@
   font-weight: bold;
 }
 
+/* CONFIRMED RODAPE */
 .confirmed .comfirmed-rodape-text p {
   font-size: 30px;
   line-height: 40px;
@@ -699,4 +700,29 @@
 .confirmed .comfirmed-rodape-text p span {
   font-weight: bold;
   display: block;
+}
+
+.confirmed .confirmed-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.confirmed .confirmed-button button {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--primary-white);
+  padding: 12px 42px;
+  border: none;
+  background: var(--primary-pink);
+  border-radius: 300px;
+  margin-bottom: 16px;
+  transition: all 0.6s ease;
+  cursor: pointer;
+}
+
+.confirmed .confirmed-button button:hover {
+  background: var(--primary-gray);
+  color: var(--primary-white);
 }

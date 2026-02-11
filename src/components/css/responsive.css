@@ -112,7 +112,6 @@
   .points-content :is(.points-descritpion, p) {
     margin-left: 0px;
     font-size: 18px;
-    /* gap: 5px; */
   }
 
   .points-content p i {
@@ -145,6 +144,62 @@
 
   .cards-info .cards-description p {
     font-size: 16px;
+  }
+
+  /* MAIN - PLANS ( ! ) */
+  .plans .plans-container {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .plans .plans-content-info {
+    gap: 10px;
+  }
+
+  .plans-content-info .plans-title h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .plans-content-info .plans-text p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .plans .plans-content-description {
+    width: 113%;
+    padding: 28px;
+  }
+
+  .plans-content-description .plans-paragraph p {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+
+  .plans-content-description .plans-paragraph p span {
+    font-size: 16px;
+    position: relative;
+    left: 32px;
+  }
+
+  .plans-content-description .plans-paragraph p i {
+    margin-inline: 4px;
+  }
+
+  .plans-content-description .plans-button {
+    padding-inline: 0px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .plans-content-description .plans-button button {
+    font-size: 16px;
+  }
+
+  .plans-content-description .plans-button i {
+    top: 10px;
+    right: 30px;
+    font-size: 30px;
   }
 }
 

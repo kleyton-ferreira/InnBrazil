@@ -683,3 +683,20 @@
   font-size: 18px;
   font-weight: bold;
 }
+
+.confirmed .comfirmed-rodape-text p {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: bold;
+  color: var(--primary-gray);
+}
+
+.confirmed .comfirmed-rodape-text p strong {
+  font-size: 40px;
+  color: var(--primary-pink);
+}
+
+.confirmed .comfirmed-rodape-text p span {
+  font-weight: bold;
+  display: block;
+}

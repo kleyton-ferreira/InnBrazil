@@ -203,6 +203,7 @@
   }
 
   /*  MAIN - CONFIRMED ( PLANS! )  */
+
   .confirmed .confirmed-content-text h2 {
     font-size: 32px;
   }
@@ -269,6 +270,22 @@
 
   .confirmed .confirmed-button button {
     font-size: 16px;
+  }
+
+  /* MAIN - CARDS - BOX ( ! ) */
+  .cards-box {
+    margin-top: 96px;
+  }
+
+  .cards-box .cards-box-one {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .cards-box .cards-box-one .cards-items {
+    width: 100%;
+    margin: 0 auto;
   }
 }
 

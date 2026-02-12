@@ -726,3 +726,46 @@
   background: var(--primary-gray);
   color: var(--primary-white);
 }
+
+/* MAIN - CARDS - BOX ( ! ) */
+.cards-box {
+  margin-top: 806px;
+}
+
+.cards-box .cards-box-one {
+  display: flex;
+  gap: 20px;
+}
+
+.cards-box .cards-box-one .cards-items {
+  position: relative;
+  width: 370px;
+  height: 330px;
+  background: var(--primary-pink);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s ease-in;
+}
+
+.cards-box .cards-box-one .cards-items :is(img, h2, p) {
+  color: var(--primary-white);
+  margin-bottom: 8px;
+}
+
+.cards-box .cards-items h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.cards-box .cards-items h2 ~ p {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 200;
+}
+
+.cards-box .cards-items h2 ~ p span {
+  display: block;
+}

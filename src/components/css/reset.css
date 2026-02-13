@@ -205,12 +205,12 @@ footer {
 }
 
 /* DOLAR */
-.icon-box.dolar path {
+.icon-box.svg-animation path {
   stroke-dasharray: 352;
   stroke-dashoffset: 0;
 }
 
-.cards-items:hover .icon-box.dolar path {
+.cards-items:hover .icon-box.svg-animation path {
   animation: animate-heart 2s ease forwards;
   stroke: var(--primary-white);
 }
@@ -229,36 +229,5 @@ footer {
   }
   100% {
     stroke-dashoffset: 704;
-  }
-}
-
-/* STAR */
-.icon-box.star path {
-  stroke-dasharray: 352;
-  stroke-dashoffset: 0;
-}
-
-.cards-items:hover .icon-box.star path {
-  animation: animate-hearts 2s ease forwards;
-  fill: none;
-  stroke: white;
-}
-
-@keyframes animate-hearts {
-  0% {
-    stroke-dashoffset: 0;
-  }
-
-  40% {
-    stroke-dashoffset: 352;
-  }
-
-  80% {
-    stroke-dashoffset: 704;
-  }
-  100% {
-    stroke-dashoffset: 704;
-    stroke: white;
-    fill: none;
   }
 }

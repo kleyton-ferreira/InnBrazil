@@ -122,10 +122,6 @@ html {
   display: none;
 }
 
-.darkmode #theme-switch:hover i:first-child {
-  color: red;
-}
-
 .darkmode #theme-switch i:last-child {
   display: block;
 }
@@ -138,6 +134,14 @@ html {
 .darkmode #theme-switch:hover i:last-child {
   transform: rotate(360deg) scale(1.2);
   opacity: 1;
+}
+
+.darkmode .confirmed-content-text :is(h2, p) {
+  color: var(--primary-white);
+}
+
+.darkmode .comfirmed-rodape-text p {
+  color: var(--primary-white);
 }
 
 #count {

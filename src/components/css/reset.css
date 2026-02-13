@@ -194,3 +194,67 @@ footer {
   margin: auto;
   padding-inline: 30px;
 }
+
+/* EFFECTS ICONS SVG */
+.icon-box path {
+  stroke: 10px;
+}
+
+/* DOLAR */
+.icon-box.dolar path {
+  stroke-dasharray: 352;
+  stroke-dashoffset: 0;
+}
+
+.cards-items:hover .icon-box.dolar path {
+  animation: animate-heart 2s ease forwards;
+  stroke: var(--primary-white);
+}
+
+@keyframes animate-heart {
+  0% {
+    stroke-dashoffset: 0;
+  }
+
+  40% {
+    stroke-dashoffset: 352;
+  }
+
+  80% {
+    stroke-dashoffset: 704;
+  }
+  100% {
+    stroke-dashoffset: 704;
+  }
+}
+
+/* STAR */
+.icon-box.star path {
+  stroke-dasharray: 352;
+  stroke-dashoffset: 0;
+}
+
+.cards-items:hover .icon-box.star path {
+  animation: animate-hearts 2s ease forwards;
+  fill: none;
+  stroke: white;
+}
+
+@keyframes animate-hearts {
+  0% {
+    stroke-dashoffset: 0;
+  }
+
+  40% {
+    stroke-dashoffset: 352;
+  }
+
+  80% {
+    stroke-dashoffset: 704;
+  }
+  100% {
+    stroke-dashoffset: 704;
+    stroke: white;
+    fill: none;
+  }
+}

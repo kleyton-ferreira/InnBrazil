@@ -750,20 +750,34 @@
   transition: all 0.4s ease-in;
 }
 
-.cards-box .cards-box-one .cards-items :is(img, h2, p) {
+.cards-box .cards-box-one .cards-items:hover {
+  box-shadow: 0 0 20px rgba(75, 74, 75, 0.9);
+}
+
+.cards-box .cards-box-one .cards-items :is(svg, h2, p) {
   color: var(--primary-white);
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .cards-box .cards-items h2 {
   font-size: 30px;
   font-weight: bold;
+  transition: all 0.8s ease;
+}
+
+.cards-box .cards-items:hover h2 {
+  transform: scale(1.05);
 }
 
 .cards-box .cards-items h2 ~ p {
   font-size: 18px;
   text-align: center;
   font-weight: 200;
+  transition: all 0.8s ease;
+}
+
+.cards-box .cards-items:hover h2 ~ p {
+  transform: scale(1.05);
 }
 
 .cards-box .cards-items h2 ~ p span {

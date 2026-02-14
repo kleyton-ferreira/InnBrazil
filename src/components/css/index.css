@@ -810,6 +810,31 @@
   position: absolute;
   top: 50%;
   right: -50px;
+  z-index: 2;
+}
+
+.for-whom-and .for-whom-and-img .play::after {
+  content: '';
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 200px;
+  height: 200px;
+  background: var(--background-primary);
+  border-radius: 50%;
+  animation: pulse 1.2s linear infinite reverse;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgb(230, 79, 209);
+  }
+
+  100% {
+    box-shadow: 0 0 0 50px rgb(230, 141, 218);
+  }
 }
 
 .for-whom-and .for-whom-and-description {

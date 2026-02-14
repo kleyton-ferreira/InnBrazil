@@ -933,3 +933,42 @@
   top: 3px;
   font-size: 26px;
 }
+
+.for-whom-and-phrase-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.for-whom-and-phrase-content {
+  width: 723px;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.for-whom-and-phrase-content h2 {
+  font-size: 52px;
+  font-weight: bold;
+  background: linear-gradient(to left, #d30275 15%, #e5719b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.for-whom-and-phrase-content p {
+  font-size: 28px;
+  color: var(--primary-gray);
+  font-weight: 300;
+}
+
+.for-whom-and-phrase-content .phrase-description p {
+  font-size: 36px;
+  color: var(--primary-pink);
+}
+
+.for-whom-and-phrase-content :is(h2, p) {
+  margin-bottom: 20px;
+}

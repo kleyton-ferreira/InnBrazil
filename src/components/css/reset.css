@@ -7,13 +7,20 @@
   --primary-yellow: #ffcc00;
   --primary-pink: #e6007e;
   --primary-pink-light: #e47cb0;
-  --primary-dark-button-waths: #0000;
+  --primary-button-waths: #000000;
+  --shadow-whats:
+    0px 3.38px 10.02px 0px #18ff7332, 0px 6.03px 17.87px 0px #18ff733b,
+    0px 11.28px 33.42px 0px #18ff7347, 0px 27px 80px 0px #18ff7363;
 
   /* BG-GRADIENTES-CARDS */
   --background-cards-yellow: #fac208;
   --background-cards-black: #0000;
   --background-cards-blue: #3e4dba;
   --background-cards-pink: #e50b81;
+  --background-whats: #36ff5b;
+  --background-border-whats: #78de87;
+  --background-icon-whats: #9effb0;
+  --background-whats-icon: #05931a;
 
   /* BG-GRADIENTES-CARDS( TOP ) */
   --background-cards-yellow-top: #fb8a09;
@@ -29,6 +36,7 @@
     #ea005f 47.49%,
     #ea0063 94.22%
   );
+  --backgorund-flash: linear-gradient(90deg, transparent, #fff, transparent);
 }
 
 /* ====================== SCROLL BAR ====================== */

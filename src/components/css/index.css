@@ -967,6 +967,7 @@
 .for-whom-and-phrase-content .phrase-description p {
   font-size: 36px;
   color: var(--primary-pink);
+  line-height: 36px;
 }
 
 .for-whom-and-phrase-content :is(h2, p) {

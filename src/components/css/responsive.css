@@ -287,6 +287,95 @@
     width: 100%;
     margin: 0 auto;
   }
+
+  /* MAIN - DIV FOR WHOM AND ( ! ) */
+  .for-whom-and .for-whom-and-container {
+    flex-direction: column;
+  }
+
+  .for-whom-and .for-whom-and-img {
+    right: 10px;
+  }
+
+  .for-whom-and-img img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .for-whom-and .for-whom-and-img .play {
+    right: -20px;
+  }
+
+  .for-whom-and .for-whom-and-img .play::after {
+    content: '';
+    top: -13px;
+    right: 3px;
+    width: 170px;
+    height: 170px;
+  }
+
+  .for-whom-and .for-whom-and-description {
+    top: 36px;
+    width: 100%;
+  }
+
+  .for-whom-and .for-whom-and-description :is(h2, p, span) {
+    margin-bottom: 16px;
+  }
+
+  .for-whom-and .for-whom-and-description h2 {
+    font-size: 20px;
+  }
+
+  .for-whom-and .description-paragraph p {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .for-whom-and .for-whom-and-button-whats {
+    width: 100%;
+  }
+
+  .for-whom-and .for-whom-and-button-whats a {
+    font-size: 12px;
+    padding: 20px;
+  }
+
+  .for-whom-and .for-whom-and-button-whats .icon-whats {
+    width: 54px;
+  }
+
+  .for-whom-and .for-whom-and-button-whats .icon-whats i {
+    top: 6px;
+    right: 6px;
+    font-size: 24px;
+  }
+
+  .for-whom-and-phrase-container {
+    margin-top: 102px;
+  }
+
+  .for-whom-and-phrase-content {
+    width: 100%;
+  }
+
+  .for-whom-and-phrase-content h2 {
+    font-size: 36px;
+  }
+
+  .for-whom-and-phrase-content p {
+    font-size: 20px;
+  }
+
+  .for-whom-and-phrase-content .phrase-description p {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .for-whom-and-phrase-content :is(h2, p) {
+    margin-bottom: 10px;
+  }
 }
 
 /* =========================== RESPONSIVE - MOBILE (HORIZONTAL) */

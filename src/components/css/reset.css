@@ -14,8 +14,6 @@
 
   /* BG-GRADIENTES-CARDS */
   --background-cards-yellow: #fac208;
-  --background-cards-black: #0000;
-  --background-cards-blue: #3e4dba;
   --background-cards-pink: #e50b81;
   --background-whats: #36ff5b;
   --background-border-whats: #78de87;
@@ -23,9 +21,14 @@
   --background-whats-icon: #05931a;
 
   /* BG-GRADIENTES-CARDS( TOP ) */
+  --background-cards-orange-top: #fb6609;
+  --background-cards-orange-body: #fb9e09;
   --background-cards-yellow-top: #fb8a09;
+  --background-cards-yellow-body: #fac208;
   --background-cards-black-top: #4a555c;
+  --background-cards-black-body: #0000;
   --background-cards-blue-top: #69b1cb;
+  --background-cards-blue-body: #3e4dba;
   --background-button-dark: #cccc;
   --darkmode-dark: #070b1d;
 

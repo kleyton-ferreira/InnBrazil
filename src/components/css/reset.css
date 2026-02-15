@@ -88,8 +88,20 @@ html {
   background-color: var(--primary-white);
 }
 
-.darkmode .plans {
+.darkmode :is(.plans, .for-whom-and) {
   background: url(none);
+}
+
+.darkmode .for-whom-and-description :is(h2, p, span) {
+  color: var(--primary-white);
+}
+
+.darkmode .for-whom-and-phrase-content p {
+  color: var(--primary-white);
+}
+
+.darkmode .for-whom-and-phrase-content p strong {
+  color: var(--primary-pink);
 }
 
 /* BUTTON DARKMODE ( EDITION ) */

@@ -973,3 +973,232 @@
 .for-whom-and-phrase-content :is(h2, p) {
   margin-bottom: 20px;
 }
+
+/* CONFERIRRR     ESSA SECTION      ======================================= */
+/* MAIN - INVESTMENTS ( ! ) */
+.investments {
+  margin-top: 96px;
+}
+
+.investments .investments-title h2 {
+  font-size: 52px;
+  text-align: center;
+  font-weight: 900;
+  background: linear-gradient(to left, #d30275 15%, #e5719b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.investments .investments-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.investments .investments-cards {
+  position: relative;
+  overflow: hidden;
+}
+
+/* CARDS - GRID : NTH-CHILD( ! ) */
+
+/* CARDS - GRID : NTH-CHILD( 01 ) */
+.investments .investments-cards:nth-child(1) {
+  width: 120%;
+  height: 690px;
+  background-color: var(--background-cards-orange-body);
+  border-radius: 30px;
+}
+
+.investments
+  .investments-cards:nth-child(1)
+  .investments-card-title:nth-child(1) {
+  background: var(--background-cards-orange-top);
+}
+
+/* CARDS - GRID : NTH-CHILD( 02 ) */
+.investments .investments-cards:nth-child(2) {
+  width: 120%;
+  height: 690px;
+  background-color: var(--background-cards-yellow-body);
+  border-radius: 30px;
+}
+
+.investments .investments-cards:nth-child(2) .investments-card-title {
+  background: var(--background-cards-yellow-top);
+}
+
+/* CARDS - GRID : NTH-CHILD( 03 ) */
+.investments .investments-cards:nth-child(3) {
+  width: 120%;
+  height: 690px;
+  background-color: var(--background-cards-black-body);
+  border-radius: 30px;
+}
+
+.investments .investments-cards:nth-child(3) .investments-card-title {
+  background: var(--background-cards-black-top);
+}
+
+/* CARDS - GRID : NTH-CHILD( 04 ) */
+.investments .investments-cards:nth-child(4) {
+  width: 120%;
+  height: 690px;
+  background-color: var(--background-cards-blue-body);
+  border-radius: 30px;
+}
+
+.investments .investments-cards:nth-child(4) .investments-card-title {
+  background: var(--background-cards-blue-top);
+}
+/* CARDS - GRID : NTH-CHILD( ! ) */
+
+.investments .investments-card-title {
+  width: 100%;
+}
+.investments .investments-card-title h3 {
+  font-size: 28px;
+  color: var(--primary-white);
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.investments .investments-description {
+  margin-top: 84px;
+}
+
+.investments .investments-value {
+  text-align: center;
+  line-height: 42px;
+}
+
+.investments .investments-value :is(h3, p) {
+  color: var(--primary-white);
+}
+
+.investments .investments-value h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.investments .investments-value h3 strong {
+  font-size: 94px;
+}
+
+.investments .investments-value h3 strong span {
+  font-size: 40px;
+  font-weight: inherit;
+  position: relative;
+  top: -30px;
+  left: -34px;
+}
+
+.investments .investments-value h3 ~ p {
+  font-size: 24px;
+}
+
+.investments .investments-text {
+  width: 98%;
+  margin: 30px auto;
+  padding-inline: 8px;
+}
+
+.investments .investments-cards:nth-child(3) .investments-text p {
+  color: var(--primary-white);
+  border-bottom: 1px solid var(--primary-white);
+}
+
+.investments .investments-cards:nth-child(4) .investments-text p {
+  color: var(--primary-white);
+  border-bottom: 1px solid var(--primary-white);
+}
+
+.investments .investments-text p {
+  position: relative;
+  font-size: 15px;
+  color: var(--primary-gray);
+  border-bottom: 1px solid var(--primary-gray);
+  font-weight: 400;
+  padding: 6px;
+  transition: all 0.6s ease;
+}
+
+.investments .investments-text p:hover {
+  transform: translateX(4px);
+}
+
+.investments .investments-text p:nth-child(5) {
+  border-bottom: none;
+}
+
+.investments .investments-text p i {
+  font-size: 20px;
+  margin: 0 7px;
+  font-weight: bold;
+  transition: all 0.6s ease;
+}
+
+.investments .investments-text .investments-button {
+  width: 92%;
+  margin: 24px auto;
+  padding: 14px;
+  background: var(--primary-white);
+  border-radius: 80px;
+  transition: all 0.6s ease;
+}
+
+.investments .investments-text .investments-button:hover {
+  transform: scale(1.02);
+}
+
+.investments .investments-text .investments-button a {
+  display: flex;
+  justify-content: center;
+}
+
+.investments .investments-text .investments-button a button {
+  font-size: 16px;
+  border: none;
+  color: var(--primary-pink);
+  background: transparent;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.6s ease;
+}
+
+.investments .investments-text .investments-button:hover a button {
+  color: var(--primary-white);
+}
+
+.investments .investments-text .investments-button:hover {
+  background: var(--primary-pink);
+}
+
+.investments .investments-text .investments-button a button i {
+  position: relative;
+  top: 2px;
+  left: -2px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.investments .investments-footer {
+  position: absolute;
+  bottom: 0;
+  background: var(--primary-pink);
+  text-align: center;
+  padding: 20px;
+}
+
+.investments .investments-footer p {
+  font-size: 15px;
+  color: var(--primary-white);
+}
+
+.investments .investments-footer p strong span {
+  display: block;
+}

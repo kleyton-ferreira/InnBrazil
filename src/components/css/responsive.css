@@ -376,6 +376,33 @@
   .for-whom-and-phrase-content :is(h2, p) {
     margin-bottom: 10px;
   }
+
+  /* MAIN - INVESTMENTS ( ! ) */
+  .investments {
+    margin-top: 76px;
+  }
+  .investments .investments-title h2 {
+    font-size: 46px;
+  }
+  .investments .investments-content {
+    flex-direction: column;
+  }
+
+  .investments .investments-cards:nth-child(1) {
+    width: 100%;
+  }
+
+  .investments .investments-cards:nth-child(2) {
+    width: 100%;
+  }
+
+  .investments .investments-cards:nth-child(3) {
+    width: 100%;
+  }
+
+  .investments .investments-cards:nth-child(4) {
+    width: 100%;
+  }
 }
 
 /* =========================== RESPONSIVE - MOBILE (HORIZONTAL) */

@@ -1013,9 +1013,7 @@
   border-radius: 30px;
 }
 
-.investments
-  .investments-cards:nth-child(1)
-  .investments-card-title:nth-child(1) {
+.investments .investments-card-title:nth-child(1) {
   background: var(--background-cards-orange-top);
 }
 

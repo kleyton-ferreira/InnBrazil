@@ -128,6 +128,33 @@ function scrollSmoth() {
   requestAnimationFrame(raf)
 }
 
+const acc_btn = document.querySelectorAll('.accordion_info')
+const acc_contents = document.querySelectorAll('.accordion_description')
+
+acc_btn.forEach((btn) => {
+  btn.addEventListener('click', (e) => {
+    acc_contents.forEach((acc) => {
+      if (
+        e.target.nextElementSibling !== acc &&
+        acc.classList.contains('power')
+      ) {
+        acc.classList.remove('power')
+        acc_btn.forEach((btn) => btn.classList.remove('power'))
+      }
+    })
+    const panel = btn.nextElementSibling
+    panel.classList.toggle('power')
+    btn.classList.toggle('power')
+  })
+})
+
+window.onclick = (e) => {
+  if (!e.target.matches('.accordion_info')) {
+    acc_btn.forEach((btn) => btn.classList.remove('power'))
+    acc_contents.forEach((acc) => acc.classList.remove('power'))
+  }
+}
+
 // ============================================
 // ============================================  ANIMATION / AND -- (SCROLL) | COMPONENTS
 // ============================================

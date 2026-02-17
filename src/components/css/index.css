@@ -1052,6 +1052,7 @@
 .investments .investments-cards:nth-child(4) .investments-card-title {
   background: var(--background-cards-blue-top);
 }
+
 /* CARDS - GRID : NTH-CHILD( ! ) */
 
 .investments .investments-card-title {
@@ -1107,12 +1108,12 @@
 
 .investments .investments-cards:nth-child(3) .investments-text p {
   color: var(--primary-white);
-  border-bottom: 1px solid var(--primary-white);
+  border-color: var(--primary-white);
 }
 
 .investments .investments-cards:nth-child(4) .investments-text p {
   color: var(--primary-white);
-  border-bottom: 1px solid var(--primary-white);
+  border-color: var(--primary-white);
 }
 
 .investments .investments-text p {

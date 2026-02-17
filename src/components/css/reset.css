@@ -104,6 +104,14 @@ html {
   color: var(--primary-pink);
 }
 
+.darkmode .footer-logo {
+  filter: invert(0) brightness(1000%);
+}
+
+.darkmode .footer-copyright {
+  color: var(--primary-white);
+}
+
 /* BUTTON DARKMODE ( EDITION ) */
 
 #theme-switch {

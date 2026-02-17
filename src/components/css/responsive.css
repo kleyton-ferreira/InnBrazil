@@ -403,6 +403,10 @@
   .investments .investments-cards:nth-child(4) {
     width: 100%;
   }
+
+  .accordion .accordion_content {
+    width: 106%;
+  }
 }
 
 /* =========================== RESPONSIVE - MOBILE (HORIZONTAL) */

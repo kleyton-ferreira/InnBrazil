@@ -373,7 +373,7 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .plans .plans-content-info {
@@ -519,7 +519,7 @@
 
 /*  MAIN - CONFIRMED ( PLANS! )  */
 .confirmed {
-  margin-top: 102px;
+  margin-top: 86px;
 }
 
 .confirmed-container {
@@ -729,7 +729,7 @@
 
 /* MAIN - CARDS - BOX ( ! ) */
 .cards-box {
-  margin-top: 106px;
+  margin-top: 92px;
 }
 
 .cards-box .cards-box-one {
@@ -805,7 +805,7 @@
 .for-whom-and .for-whom-and-img {
   position: relative;
   display: flex;
-  margin-top: 70px;
+  margin-top: 86px;
 }
 
 .for-whom-and .for-whom-and-img .play {
@@ -974,10 +974,9 @@
   margin-bottom: 20px;
 }
 
-/* CONFERIRRR     ESSA SECTION      ======================================= */
 /* MAIN - INVESTMENTS ( ! ) */
 .investments {
-  margin-top: 96px;
+  margin-top: 76px;
 }
 
 .investments .investments-title h2 {

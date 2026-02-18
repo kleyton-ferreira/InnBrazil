@@ -235,7 +235,7 @@ footer {
   stroke: 10px;
 }
 
-/* DOLAR */
+/* SVG-ANUIMATION */
 .icon-box.svg-animation path {
   stroke-dasharray: 352;
   stroke-dashoffset: 0;
@@ -260,5 +260,39 @@ footer {
   }
   100% {
     stroke-dashoffset: 704;
+  }
+}
+
+/* LOADER */
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  background: var(--primary-pink);
+  z-index: 30000;
+  pointer-events: none;
+}
+
+.loader {
+  width: 90px;
+  height: 90px;
+  border: 15px solid var(--primary-white);
+  border-radius: 50%;
+  border-top: 15px solid var(--primary-yellow);
+  margin: 0 auto;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }

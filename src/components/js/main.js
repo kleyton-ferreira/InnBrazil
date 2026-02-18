@@ -1,5 +1,23 @@
 // ============================================
-// ============================================  SHADOW - SCROLL -- ( SCROLL ) | TOP
+// ============================================  LOADER - ( "" )
+// ============================================
+const handleLoader = () => {
+  window.addEventListener('load', function () {
+    const loaderWrapper = document.querySelector('.wrapper')
+    if (loaderWrapper) {
+      loaderWrapper.style.transition = 'opacity 20s ease'
+      loaderWrapper.style.opacity = '0'
+      setTimeout(function () {
+        loaderWrapper.style.display = 'none'
+      }, 3000)
+    }
+  })
+}
+
+handleLoader()
+
+// ============================================
+// ============================================  SHADOW - SCROLL -- ( NAV-BAR ) | TOP
 // ============================================
 
 const shadowScroll = () => {
@@ -28,6 +46,7 @@ const moveFunction = () => {
   return moverImage
 }
 moveFunction()
+
 // ============================================
 // ============================================ COUNTDOWN ( DATE! )
 // ============================================

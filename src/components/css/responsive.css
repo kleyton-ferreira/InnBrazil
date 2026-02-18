@@ -209,7 +209,7 @@
 
   /*  MAIN - CONFIRMED ( PLANS! )  */
   .confirmed {
-    margin-top: 62px;
+    margin-top: 22px;
   }
 
   .confirmed .confirmed-content-text h2 {
@@ -234,7 +234,7 @@
   }
 
   .confirmed-cards-container {
-    margin-top: 36px;
+    margin-top: -30px;
   }
 
   .confirmed .confirmed-cards-all {
@@ -325,7 +325,7 @@
   }
 
   .for-whom-and .for-whom-and-description {
-    top: 26px;
+    top: 16px;
     width: 100%;
   }
 
@@ -362,7 +362,7 @@
   }
 
   .for-whom-and-phrase-container {
-    margin-top: 72px;
+    margin-top: 102px;
   }
 
   .for-whom-and-phrase-content {

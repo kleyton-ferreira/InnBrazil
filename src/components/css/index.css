@@ -812,7 +812,7 @@
   position: absolute;
   top: 50%;
   right: -50px;
-  z-index: 2;
+  z-index: 9999;
 }
 
 .for-whom-and .for-whom-and-img .play::after {

@@ -1267,7 +1267,7 @@
 
 .accordion .accordion_item .accordion_description {
   margin-bottom: 20px;
-  height: 0px;
+  height: 0;
   overflow: hidden;
   transition: height 0.4s ease;
 }

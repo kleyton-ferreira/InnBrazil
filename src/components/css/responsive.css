@@ -404,8 +404,36 @@
     width: 100%;
   }
 
+  /*  MAIN - ACCORDION ( ! )  */
   .accordion .accordion_content {
     width: 106%;
+  }
+
+  .accordion .accordion_content {
+    padding: 20px;
+  }
+
+  .accordion .accordion_content .acc_title {
+    font-size: 30px;
+  }
+
+  .accordion .accordion_item .accordion_info h2 {
+    font-size: 15px;
+  }
+
+  .accordion .accordion_item .accordion_info i {
+    font-size: 28px;
+    position: relative;
+    top: 3px;
+  }
+
+  .accordion .accordion_item .accordion_description.power {
+    height: 100px;
+  }
+
+  .accordion .accordion_item .accordion_description p {
+    font-size: 16px;
+    color: var(--primary-white);
   }
 }
 

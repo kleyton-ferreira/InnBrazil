@@ -19,7 +19,6 @@ handleLoader()
 // ============================================
 // ============================================  SHADOW - SCROLL -- ( NAV-BAR ) | TOP
 // ============================================
-
 const shadowScroll = () => {
   window.onscroll = function () {
     let navbar = document.getElementById('shadow')
@@ -36,7 +35,6 @@ shadowScroll()
 // ============================================
 // ============================================ MOVE ( IMAGE! )
 // ============================================
-
 const moveFunction = () => {
   let moverImage = $(window).width()
   $('.banner').mousemove(function (event) {
@@ -50,7 +48,6 @@ moveFunction()
 // ============================================
 // ============================================ COUNTDOWN ( DATE! )
 // ============================================
-
 const handleCountdown = () => {
   const STORAGE_KEY = 'STORAGE_KEY-(Countdow(Date))'
 
@@ -109,7 +106,6 @@ handleCountdown()
 // ============================================
 // ============================================ DARKMODE ( LIGTH AND DARK )
 // ============================================
-
 const darkModeColor = () => {
   let darkmode = localStorage.getItem('darkmode')
   const themeSwitch = document.getElementById('theme-switch')
@@ -175,35 +171,14 @@ window.onclick = (e) => {
   }
 }
 
-// ============================================
-// ============================================  ANIMATION / AND -- (SCROLL) | COMPONENTS
-// ============================================
-
-// const sr = ScrollReveal({
-//     origin: 'top',
-//     delay: 90,
-//     distance: '24px',
-//     duration: 1360,
-//     easing: 'ease-in-out',
-//     reset: true
-
-// })
-
-// // ============= HEADER
-// sr.reveal('.header', { origin: 'left' })
-// sr.reveal('.header_icons', { origin: 'top' })
-// sr.reveal('.logo', { origin: 'bottom' })
-// sr.reveal('#hamburguer', { origin: 'top' })
-// sr.reveal('.banner_content', { origin: 'top' })
-// sr.reveal('.header_institutional', { origin: 'left' })
-// sr.reveal('.institutional_description', { origin: 'bottom' })
-
-// // // ============= MAIN
-// sr.reveal('.enterprise', { origin: 'left' })
-// sr.reveal('.enterprise_content', { origin: 'left' })
-// sr.reveal('.carousel ', { origin: 'left' })
-// sr.reveal('.accordion', { origin: 'top' })
-// sr.reveal('.doubts_whats ', { origin: 'top' })
-
-// // // ============= FOOTER
-// sr.reveal('.footer', { origin: 'left', reset: true })
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show')
+    } else {
+      entry.target.classList.remove('show')
+    }
+  })
+}, {})
+const todoElements = document.querySelectorAll('.scrollBlur')
+todoElements.forEach((el) => observer.observe(el))

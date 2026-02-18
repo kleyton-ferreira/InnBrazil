@@ -3,12 +3,12 @@
 // ============================================
 const handleLoader = () => {
   window.addEventListener('load', function () {
-    const loaderWrapper = document.querySelector('.wrapper')
-    if (loaderWrapper) {
-      loaderWrapper.style.transition = 'opacity 20s ease'
-      loaderWrapper.style.opacity = '0'
+    const loaderSpin = document.querySelector('.loader-spin')
+    if (loaderSpin) {
+      loaderSpin.style.transition = 'opacity 20s ease'
+      loaderSpin.style.opacity = '0'
       setTimeout(function () {
-        loaderWrapper.style.display = 'none'
+        loaderSpin.style.display = 'none'
       }, 3000)
     }
   })

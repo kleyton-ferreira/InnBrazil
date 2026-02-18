@@ -264,7 +264,7 @@ footer {
 }
 
 /* LOADER  - ( ! ) */
-.wrapper {
+.loader-spin {
   width: 100vw;
   height: 100vh;
   position: fixed;

@@ -118,7 +118,7 @@ darkModeColor()
 // ============================================
 // ============================================ SCROOL SUAVE
 // ============================================
-function scrollSmoth() {
+const scrollSmoth = () => {
   const lenis = new Lenis()
   function raf(time) {
     lenis.raf(time)
@@ -127,6 +127,7 @@ function scrollSmoth() {
 
   requestAnimationFrame(raf)
 }
+scrollSmoth()
 
 const acc_btn = document.querySelectorAll('.accordion_info')
 const acc_contents = document.querySelectorAll('.accordion_description')

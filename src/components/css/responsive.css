@@ -433,7 +433,31 @@
 
   .accordion .accordion_item .accordion_description p {
     font-size: 16px;
-    color: var(--primary-white);
+  }
+
+  /* FOOTER ( ! ) */
+  .footer .footer-content {
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-logo img {
+    width: 194px;
+    height: 240px;
+    object-fit: contain;
+  }
+
+  .footer .footer-description {
+    padding: 10px;
+  }
+
+  .footer .footer-description :is(p, a, i) {
+    font-size: 15px;
+  }
+
+  .footer-copyright {
+    font-size: 12px;
   }
 }
 

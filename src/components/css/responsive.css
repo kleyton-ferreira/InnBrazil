@@ -12,17 +12,22 @@
   }
 
   .header-top .header-top-text {
-    top: -12px;
+    top: -14px;
     left: 0px;
   }
 
   .header-top .header-top-text h2 {
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .header-top .header-top-text h2 span {
+    display: none;
   }
 
   .header-top .header-top-hours {
     position: relative;
-    top: -3px;
+    top: -10px;
     flex: 0px;
     gap: 5px;
   }
@@ -31,7 +36,7 @@
     font-size: 18px;
     width: 40px;
     height: 40px;
-    margin-bottom: -1px;
+    margin-bottom: -5px;
   }
 
   .header-top .title p ~ span {
@@ -39,7 +44,7 @@
   }
 
   .header-top .header-button {
-    margin-bottom: 12px;
+    margin-bottom: 4px;
   }
 
   .header-top .header-button button {
@@ -50,13 +55,13 @@
     position: absolute;
     top: 14px;
     right: 0;
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
   }
 
   /* MAIN - BANNER ( ! ) */
   .banner {
-    top: 202px;
+    top: 174px;
     height: 100%;
   }
 
@@ -107,7 +112,7 @@
 
   /* MAIN - POINTS ( ! ) */
   .points {
-    margin-top: 220px;
+    margin-top: 176px;
   }
 
   .points-content {
@@ -131,7 +136,7 @@
 
   /* MAIN - CARDS ( ! ) */
   .cards {
-    margin-top: 42px;
+    margin-top: 26px;
   }
 
   .cards-container {

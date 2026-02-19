@@ -1,46 +1,52 @@
 /* =========================== RESPONSIVE - MOBILE (VERTICAL) */
 
 @media screen and (max-width: 480px) {
-  .header-content-top {
+  .header-top .header-content-top {
     position: relative;
     flex-direction: column;
-    gap: 10px;
+    gap: 0px;
   }
 
-  .header-logo {
+  .header-top .header-logo {
     align-self: self-start;
   }
 
-  .header-top-text {
+  .header-top .header-top-text {
+    top: -12px;
     left: 0px;
   }
 
-  .header-top-text h2 {
-    font-size: 18px;
+  .header-top .header-top-text h2 {
+    font-size: 14px;
   }
 
-  .header-top-hours {
+  .header-top .header-top-hours {
+    position: relative;
+    top: -3px;
     flex: 0px;
+    gap: 5px;
   }
 
-  .title p {
-    font-size: 24px;
-
+  .header-top .title p {
+    font-size: 18px;
     width: 40px;
     height: 40px;
+    margin-bottom: -1px;
   }
 
-  .header-button {
-    margin-bottom: 32px;
-  }
-
-  .header-button button {
+  .header-top .title p ~ span {
     font-size: 15px;
-    padding: 10px 24px;
-    top: 10px;
   }
 
-  #theme-switch {
+  .header-top .header-button {
+    margin-bottom: 12px;
+  }
+
+  .header-top .header-button button {
+    display: none;
+  }
+
+  .header-top #theme-switch {
     position: absolute;
     top: 14px;
     right: 0;
@@ -50,7 +56,7 @@
 
   /* MAIN - BANNER ( ! ) */
   .banner {
-    top: 298px;
+    top: 202px;
     height: 100%;
   }
 
@@ -101,7 +107,7 @@
 
   /* MAIN - POINTS ( ! ) */
   .points {
-    margin-top: 300px;
+    margin-top: 220px;
   }
 
   .points-content {
@@ -125,7 +131,7 @@
 
   /* MAIN - CARDS ( ! ) */
   .cards {
-    margin-top: 48px;
+    margin-top: 42px;
   }
 
   .cards-container {
@@ -154,7 +160,7 @@
   .plans .plans-container {
     flex-direction: column;
     gap: 32px;
-    margin-top: 40px;
+    margin-top: 34px;
   }
 
   .plans .plans-content-info {
@@ -218,7 +224,7 @@
 
   .confirmed .confirmed-content-text p {
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
   }
 
   .confirmed .confirmed-description {
@@ -273,7 +279,7 @@
   }
 
   .confirmed .confirmed-button {
-    margin-top: 20px;
+    margin-top: -10px;
   }
 
   .confirmed .confirmed-button button {
@@ -282,7 +288,7 @@
 
   /* MAIN - CARDS - BOX ( ! ) */
   .cards-box {
-    margin-top: 56px;
+    margin-top: 46px;
   }
 
   .cards-box .cards-box-one {
@@ -362,7 +368,7 @@
   }
 
   .for-whom-and-phrase-container {
-    margin-top: 102px;
+    margin-top: 88px;
   }
 
   .for-whom-and-phrase-content {
@@ -388,7 +394,7 @@
 
   /* MAIN - INVESTMENTS ( ! ) */
   .investments {
-    margin-top: 34px;
+    margin-top: 38px;
   }
   .investments .investments-title h2 {
     font-size: 46px;
@@ -450,13 +456,18 @@
   }
 
   /* FOOTER ( ! ) */
+  .footer {
+    position: relative;
+    top: -30px;
+  }
+
   .footer .footer-content {
     align-items: center;
     flex-direction: column;
     gap: 10px;
   }
 
-  .footer-logo img {
+  .footer .footer-logo img {
     width: 194px;
     height: 240px;
     object-fit: contain;
@@ -470,7 +481,7 @@
     font-size: 15px;
   }
 
-  .footer-copyright {
+  .footer .footer-copyright {
     font-size: 12px;
   }
 }

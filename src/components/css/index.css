@@ -686,6 +686,8 @@
 
 /* CONFIRMED RODAPE */
 .confirmed .comfirmed-rodape-text p {
+  position: relative;
+  top: -20px;
   font-size: 30px;
   line-height: 40px;
   font-weight: bold;
@@ -706,7 +708,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
 }
 
 .confirmed .confirmed-button button {

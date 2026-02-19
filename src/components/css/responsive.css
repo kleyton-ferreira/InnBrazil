@@ -525,9 +525,312 @@
   .footer {
     width: 200%;
   }
+
+  .loader-spin {
+    width: 100%;
+    height: 100%;
+  }
 }
 
-/* =========================== RESPONSIVE - TABLET */
+/* =========================== RESPONSIVE - TABLET ( PORTRAIT ) */
 
-@media screen and (min-width: 550px) and (orientation: portrait) and (max-width: 880px) {
+@media screen and (min-width: 768px) and (orientation: portrait) and (max-width: 880px) {
+  .header-top .header-content-top {
+    position: relative;
+  }
+
+  .header-top .header-top-text {
+    left: 0px;
+  }
+
+  .header-top .header-top-text h2 {
+    font-size: 16px;
+  }
+
+  .header-top .header-top-text h2 span {
+    display: none;
+  }
+
+  .header-top-hours {
+    position: relative;
+    right: 40px;
+  }
+
+  .header-top #theme-switch {
+    position: absolute;
+    top: 3px;
+    right: 10px;
+  }
+
+  .header-top .header-button button {
+    display: none;
+  }
+
+  /* MAIN - BANNER ( ! ) */
+  .banner-description-content h2 {
+    font-size: 52px;
+    line-height: 52px;
+  }
+
+  .banner-primary-button button {
+    font-size: 15px;
+    padding: 12px 36px;
+  }
+
+  .banner-description-content p {
+    font-size: 16px;
+  }
+
+  /* MAIN - POINTS ( ! ) */
+  .points {
+    margin-top: 100px;
+  }
+
+  .points-content {
+    gap: 16px;
+  }
+
+  .points-content :is(.points-descritpion, p) {
+    margin-left: 0px;
+    font-size: 18px;
+  }
+
+  .points-content p i {
+    top: -5px;
+  }
+
+  /* MAIN - CARDS ( ! ) */
+  .cards {
+    margin-top: 46px;
+  }
+
+  .cards-info {
+    width: 102%;
+  }
+
+  .cards-info .cards-description {
+    width: 96%;
+  }
+
+  .cards-info .cards-description h2 {
+    font-size: 20px;
+  }
+
+  .cards-info .cards-description p {
+    font-size: 16px;
+  }
+
+  /* MAIN - PLANS ( ! ) */
+  .plans .plans-container {
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 104px;
+  }
+
+  .plans-content-info .plans-title h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .plans .plans-content-description {
+    width: 100%;
+  }
+
+  /*  MAIN - CONFIRMED ( PLANS! )  */
+  .confirmed .confirmed-content-text h2 {
+    font-size: 38px;
+  }
+
+  .confirmed .confirmed-content-text p {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .confirmed .confirmed-description {
+    width: 96%;
+  }
+
+  .confirmed .confirmed-cards-all {
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+  }
+  .confirmed .comfirmed-img {
+    flex-grow: 2;
+  }
+
+  .confirmed .comfirmed-img:nth-child(5) img {
+    width: 164%;
+    height: 208%;
+    object-fit: contain;
+    transform: translateX(-246px);
+  }
+
+  /* MAIN - CARDS - BOX ( ! ) */
+  .cards-box {
+    margin-top: 66px;
+  }
+
+  .cards-box .cards-box-one {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* MAIN - DIV FOR WHOM AND ( ! ) */
+  .for-whom-and .for-whom-and-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .for-whom-and .for-whom-and-description {
+    top: 36px;
+    width: 100%;
+  }
+
+  .for-whom-and .for-whom-and-button-whats {
+    margin: 0 auto;
+  }
+
+  .for-whom-and-phrase {
+    margin-top: 160px;
+  }
+
+  /* MAIN - INVESTMENTS ( ! ) */
+  .investments .investments-content {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .investments .investments-cards:nth-child(1) {
+    width: 66%;
+  }
+
+  .investments .investments-cards:nth-child(2) {
+    width: 66%;
+  }
+
+  .investments .investments-cards:nth-child(3) {
+    width: 66%;
+  }
+
+  .investments .investments-cards:nth-child(4) {
+    width: 66%;
+  }
+
+  .investments .investments-footer {
+    width: 100%;
+  }
+
+  /*  MAIN - ACCORDION ( ! )  */
+  .accordion .accordion_item .accordion_description.power {
+    height: 70px;
+  }
+}
+
+/* =========================== RESPONSIVE - TABLET ( LANDSCAPE ) */
+@media screen and (min-width: 880px) and (orientation: landscape) and (max-width: 1196px) {
+  .header-content-top {
+    padding-inline: 30px;
+  }
+
+  .header-top .header-top-text h2 {
+    font-size: 16px;
+  }
+
+  .header-top .header-top-text h2 span {
+    display: none;
+  }
+
+  .header-top .header-button button {
+    display: none;
+  }
+
+  .header-top #theme-switch {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+  }
+
+  /* MAIN - BANNER ( ! ) */
+  .banner {
+    width: 100%;
+  }
+
+  /* MAIN - POINTS ( ! ) */
+  .points {
+    width: 100%;
+  }
+
+  /* MAIN - PLANS ( ! ) */
+  .plans {
+    width: 100%;
+  }
+
+  /*  MAIN - CONFIRMED ( PLANS! )  */
+  .confirmed {
+    width: 100%;
+  }
+
+  .confirmed .confirmed-cards-all {
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+  }
+
+  .confirmed .comfirmed-img {
+    flex-grow: 2;
+  }
+
+  .confirmed .comfirmed-img:nth-child(5) img {
+    width: 164%;
+    height: 208%;
+    object-fit: contain;
+    transform: translateX(-146px);
+  }
+
+  /* MAIN - CARDS ( ! ) */
+  .cards {
+    width: 100%;
+  }
+
+  .cards-box .cards-box-one {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* MAIN - DIV FOR WHOM AND ( ! ) */
+  .for-whom-and {
+    width: 100%;
+  }
+
+  /* MAIN - INVESTMENTS ( ! ) */
+  .investments {
+    width: 100%;
+  }
+
+  .investments .investments-content {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .investments .investments-footer {
+    width: 100%;
+  }
+
+  /*  MAIN - ACCORDION ( ! )  */
+  .accordion {
+    width: 100%;
+  }
+
+  /* FOOTER ( ! ) */
+  .footer {
+    width: 100%;
+  }
+
+  .loader-spin {
+    width: 100%;
+    height: 100%;
+  }
 }

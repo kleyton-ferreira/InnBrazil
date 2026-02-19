@@ -72,7 +72,7 @@ const handleCountdown = () => {
     const countdownTime = endDate - now
 
     if (countdownTime <= 0) {
-      document.getElementById('count').innerHTML = ' ( Vendas Encerradas! )'
+      document.getElementById('count').innerHTML = ' ( VIRADA DE LOTE )'
       localStorage.removeItem(endDate)
       return
     }
@@ -144,33 +144,43 @@ const scrollSmoth = () => {
 }
 scrollSmoth()
 
-const acc_btn = document.querySelectorAll('.accordion_info')
-const acc_contents = document.querySelectorAll('.accordion_description')
+// ============================================
+// ============================================ ACCORDION
+// ============================================
+const handlAccordion = () => {
+  const acc_btn = document.querySelectorAll('.accordion_info')
+  const acc_contents = document.querySelectorAll('.accordion_description')
 
-acc_btn.forEach((btn) => {
-  btn.addEventListener('click', (e) => {
-    acc_contents.forEach((acc) => {
-      if (
-        e.target.nextElementSibling !== acc &&
-        acc.classList.contains('power')
-      ) {
-        acc.classList.remove('power')
-        acc_btn.forEach((btn) => btn.classList.remove('power'))
-      }
+  acc_btn.forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      acc_contents.forEach((acc) => {
+        if (
+          e.target.nextElementSibling !== acc &&
+          acc.classList.contains('power')
+        ) {
+          acc.classList.remove('power')
+          acc_btn.forEach((btn) => btn.classList.remove('power'))
+        }
+      })
+      const panel = btn.nextElementSibling
+      panel.classList.toggle('power')
+      btn.classList.toggle('power')
     })
-    const panel = btn.nextElementSibling
-    panel.classList.toggle('power')
-    btn.classList.toggle('power')
   })
-})
 
-window.onclick = (e) => {
-  if (!e.target.matches('.accordion_info')) {
-    acc_btn.forEach((btn) => btn.classList.remove('power'))
-    acc_contents.forEach((acc) => acc.classList.remove('power'))
+  window.onclick = (e) => {
+    if (!e.target.matches('.accordion_info')) {
+      acc_btn.forEach((btn) => btn.classList.remove('power'))
+      acc_contents.forEach((acc) => acc.classList.remove('power'))
+    }
   }
 }
 
+handlAccordion()
+
+// ============================================
+// ============================================ SCROLL SOFT
+// ============================================
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {

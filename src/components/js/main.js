@@ -5,7 +5,7 @@ const handleLoader = () => {
   window.addEventListener('load', function () {
     const loaderSpin = document.querySelector('.loader-spin')
     if (loaderSpin) {
-      loaderSpin.style.transition = 'opacity 10s ease'
+      loaderSpin.style.transition = 'opacity 2s ease'
       loaderSpin.style.opacity = '0'
       setTimeout(function () {
         loaderSpin.style.display = 'none'

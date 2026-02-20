@@ -4,6 +4,9 @@
   z-index: 9999;
   background: var(--background-primary);
   transition: box-shadow 0.3s ease-in-out;
+  -webkit-transition: box-shadow 0.3s ease-in-out;
+  -moz-transition: box-shadow 0.3s ease-in-out;
+  -o-transition: box-shadow 0.3s ease-in-out;
 }
 
 .header-container {
@@ -57,10 +60,13 @@
   background: var(--primary-white);
   border-radius: 10px;
   display: flex;
-  align-items: center;
   justify-content: center;
-  transition: all 0.6s ease;
+  align-items: center;
   margin-bottom: 2px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 
 .title p:hover {
@@ -88,9 +94,12 @@
   border-radius: 30px;
   font-weight: 900;
   color: var(--primary-pink);
-  transition: all 0.3s ease;
   z-index: 1;
   overflow: hidden;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 
 .header-button button:hover::after {
@@ -176,7 +185,10 @@
   background: var(--primary-pink);
   border-radius: 300px;
   margin-bottom: 16px;
-  transition: all 0.6s ease;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 
 .banner-primary-button button:hover {
@@ -255,6 +267,9 @@
   padding: 12px 42px;
   cursor: pointer;
   transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
 }
 
 .banner-secondary-button button:hover {
@@ -301,6 +316,9 @@
   color: var(--primary-white);
   border-radius: 50%;
   transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
 .points-content p:hover i {
@@ -327,7 +345,10 @@
   text-align: center;
   padding: 20px;
   overflow: hidden;
-  transition: all 0.5s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
 }
 
 .cards-info:hover {
@@ -336,7 +357,10 @@
 
 .cards-info :is(i, h2, p) {
   color: var(--primary-white);
-  transition: all 0.5s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
 }
 
 .cards-info .icon i {
@@ -445,7 +469,10 @@
   font-weight: 600;
   color: var(--primary-white);
   margin-bottom: 28px;
-  transition: all 0.8s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
 }
 
 .plans-content-description .plans-paragraph p span {
@@ -462,7 +489,10 @@
   border: 2px solid var(--primary-white);
   border-radius: 50%;
   margin-inline: 10px;
-  transition: all 0.8s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
 }
 
 .plans-content-description .plans-paragraph p:hover i {
@@ -481,7 +511,10 @@
   background: var(--primary-white);
   border-radius: 10px;
   overflow: hidden;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
 }
 
 .plans-content-description .plans-button:hover a {
@@ -499,6 +532,9 @@
   text-indent: -30px;
   cursor: pointer;
   transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
 .plans-content-description .plans-button:hover button {
@@ -512,6 +548,9 @@
   font-size: 40px;
   color: var(--primary-pink);
   transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
 .plans-content-description .plans-button:hover i {
@@ -581,7 +620,10 @@
   background: transparent;
   overflow: hidden;
   border-radius: 20px;
-  transition: all 0.6s ease;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
 .confirmed .comfirmed-img:hover {
@@ -597,8 +639,11 @@
   width: 100%;
   height: 100%;
   background: var(--background-cards-pink);
-  transition: all 0.4s ease;
   opacity: 0;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
 .confirmed .comfirmed-img:hover::after {
@@ -665,9 +710,12 @@
   z-index: 5;
   width: 100%;
   text-align: left;
-  transition: all 0.4s ease;
-  transition: all 0.9s cubic-bezier(0.43, 2, 0.55, 0.27);
   opacity: 0;
+  transition: all 0.9s cubic-bezier(0.43, 2, 0.55, 0.27);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
 .confirmed .comfirmed-img:hover .comfirmed-description {
@@ -749,7 +797,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: all 0.4s ease-in;
+  transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
 }
 
 .cards-box .cards-box-one .cards-items:hover {
@@ -764,7 +815,10 @@
 .cards-box .cards-items h2 {
   font-size: 24px;
   font-weight: bold;
-  transition: all 0.8s ease;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
 .cards-box .cards-items:hover h2 {
@@ -775,7 +829,10 @@
   font-size: 18px;
   text-align: center;
   font-weight: 200;
-  transition: all 0.8s ease;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
 .cards-box .cards-items:hover h2 ~ p {
@@ -1124,7 +1181,10 @@
   border-bottom: 1px solid var(--primary-gray);
   font-weight: 400;
   padding: 6px;
-  transition: all 0.6s ease;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
 .investments .investments-text p:hover {
@@ -1139,7 +1199,10 @@
   font-size: 20px;
   margin: 0 7px;
   font-weight: bold;
-  transition: all 0.6s ease;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
 .investments .investments-text .investments-button {
@@ -1148,7 +1211,10 @@
   padding: 14px;
   background: var(--primary-white);
   border-radius: 80px;
-  transition: all 0.6s ease;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
 .investments .investments-text .investments-button:hover {
@@ -1167,7 +1233,10 @@
   background: transparent;
   font-weight: bold;
   cursor: pointer;
-  transition: all 0.6s ease;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
 .investments .investments-text .investments-button:hover a button {
@@ -1314,7 +1383,10 @@
   color: var(--primary-white);
   font-weight: 300;
   font-size: 18px;
-  transition: all 0.4s ease;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
 .footer .footer-social-network {

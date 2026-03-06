@@ -1071,7 +1071,7 @@
 /* CARDS - GRID : NTH-CHILD( 01 ) */
 .investments .investments-cards:nth-child(1) {
   width: 120%;
-  height: 690px;
+  height: 946px;
   background-color: var(--background-cards-orange-body);
   border-radius: 30px;
 }
@@ -1083,7 +1083,7 @@
 /* CARDS - GRID : NTH-CHILD( 02 ) */
 .investments .investments-cards:nth-child(2) {
   width: 120%;
-  height: 690px;
+  height: 946px;
   background-color: var(--background-cards-yellow-body);
   border-radius: 30px;
 }
@@ -1095,7 +1095,7 @@
 /* CARDS - GRID : NTH-CHILD( 03 ) */
 .investments .investments-cards:nth-child(3) {
   width: 120%;
-  height: 690px;
+  height: 946px;
   background-color: var(--background-cards-black-body);
   border-radius: 30px;
 }
@@ -1107,7 +1107,7 @@
 /* CARDS - GRID : NTH-CHILD( 04 ) */
 .investments .investments-cards:nth-child(4) {
   width: 120%;
-  height: 690px;
+  height: 946px;
   background-color: var(--background-cards-blue-body);
   border-radius: 30px;
 }
@@ -1174,9 +1174,17 @@
   border-color: var(--primary-white);
 }
 
+.investments .investments-cards:nth-child(3) .investments-text p span {
+  color: var(--primary-white);
+}
+
 .investments .investments-cards:nth-child(4) .investments-text p {
   color: var(--primary-white);
   border-color: var(--primary-white);
+}
+
+.investments .investments-cards:nth-child(4) .investments-text p span {
+  color: var(--primary-white);
 }
 
 .investments .investments-text p {
@@ -1191,12 +1199,30 @@
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
 }
+.investments .investments-cards .investments-text p span {
+  color: var(--primary-gray);
+  font-weight: 400;
+  position: relative;
+  left: 34px;
+}
 
 .investments .investments-text p:hover {
   transform: translateX(4px);
 }
 
-.investments .investments-text p:nth-child(5) {
+.investments .investments-cards:nth-child(1) .investments-text p:nth-child(5) {
+  border-bottom: none;
+}
+
+.investments .investments-cards:nth-child(2) .investments-text p:nth-child(6) {
+  border-bottom: none;
+}
+
+.investments .investments-cards:nth-child(3) .investments-text p:nth-child(7) {
+  border-bottom: none;
+}
+
+.investments .investments-cards:nth-child(4) .investments-text p:nth-child(10) {
   border-bottom: none;
 }
 
@@ -1211,6 +1237,8 @@
 }
 
 .investments .investments-text .investments-button {
+  position: absolute;
+  top: 82%;
   width: 92%;
   margin: 24px auto;
   padding: 14px;

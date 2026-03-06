@@ -59,7 +59,7 @@ const handleCountdown = () => {
     }
 
     const now = new Date()
-    const endDate = new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000)
+    const endDate = new Date(now.getTime() + 60 * 24 * 60 * 60 * 1000)
 
     localStorage.setItem(STORAGE_KEY, endDate.toISOString())
     return endDate

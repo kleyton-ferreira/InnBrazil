@@ -402,26 +402,90 @@
     margin-top: 38px;
   }
   .investments .investments-title h2 {
-    font-size: 46px;
+    font-size: 30px;
   }
   .investments .investments-content {
-    flex-direction: column;
+    grid-template-columns: repeat(1, 110%);
+    grid-auto-rows: 940px;
   }
 
-  .investments .investments-cards:nth-child(1) {
+  .investments .investments-text h3 {
+    font-size: 24px;
+    padding: 26px;
+  }
+
+  .investments .investments-value {
+    margin-top: 54px;
+    margin-bottom: 20px;
+  }
+
+  .investments .investments-value h3 {
+    font-size: 32px;
+    line-height: 46px;
+  }
+
+  .investments .investments-value h3 strong {
+    font-size: 70px;
+  }
+
+  .investments .investments-value h3 span {
+    font-size: 50px;
+    top: -18px;
+    left: -24px;
+  }
+
+  .investments .investments-value p {
+    font-size: 22px;
+  }
+
+  .investments .investments-texts {
+    padding: 3px;
+  }
+
+  .investments .investments-texts p {
+    font-size: 14px;
+  }
+
+  .investments .investments-texts p span {
+    display: inline-flex;
+    left: 0px;
+  }
+
+  .investments .investments-texts p i {
+    padding: 0 4px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .investments-texts p .registered {
+    transform: translateX(30px);
+  }
+
+  .investments-texts p .registereds {
+    transform: translateX(30px);
+  }
+
+  .investments-texts p .Graduation {
+    transform: translateX(30px);
+  }
+
+  .investments .investments-button {
+    top: 85.3%;
+    left: 5%;
+    width: 90%;
+  }
+
+  .investments .investments-footer {
     width: 100%;
   }
 
-  .investments .investments-cards:nth-child(2) {
-    width: 100%;
+  .investments .investments-button a {
+    font-size: 16px;
   }
 
-  .investments .investments-cards:nth-child(3) {
-    width: 100%;
-  }
-
-  .investments .investments-cards:nth-child(4) {
-    width: 100%;
+  .investments .investments-footer p {
+    font-size: 16px;
+    padding-top: 18px;
   }
 
   /*  MAIN - ACCORDION ( ! )  */
@@ -429,7 +493,7 @@
     margin-top: 66px;
   }
   .accordion .accordion_content {
-    width: 106%;
+    width: 120%;
   }
 
   .accordion .accordion_content {
